@@ -8,11 +8,11 @@
     - name: create tag to image
       command: sed -i 's/#//g' /root/test1/environment
 	  
-	- name: create tag to image
+    - name: create tag to image
       command: sed -i 's/#//g' /root/test1/http_proxy.sh
 	  
-	- name: create tag to image
+    - name: create tag to image
       command: sed -i 's/export/#export/g' /root/test1/environment
 	  
-	- name: create tag to image
+    - name: create tag to image
       command: sed -i 's/export/#export/g' /root/test1/http_proxy.sh
